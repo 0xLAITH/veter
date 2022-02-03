@@ -26,12 +26,12 @@ fn main() {
 
     println!("{}", result);
 
-    //ctx.set_contents(result.to_owned()).unwrap();
+    ctx.set_contents(result.to_owned()).unwrap();
 }
 
 
 fn get_templates(file_string: &String) -> Vec<& str> {
-    let split = file_string.split("==========\n");
+    let split = file_string.split("==========\r\n");
     let all_templates: Vec<_> = split.collect();
     all_templates
 }
