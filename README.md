@@ -1,5 +1,5 @@
 # Veter
-CLI tool to insert strings into default templated text objects. 
+CLI tool to insert strings into templated text objects. 
 
 The input string is taken from your clipboard. The expected format for the input string is (" - " is the delimiter):
 >string1 - string2 - string3 
