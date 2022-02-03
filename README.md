@@ -11,11 +11,11 @@ John - 50 - Red
 
 # Usage
 
--Make sure you have veter.exe and template.txt in same directory (pre-compiled veter.exe available in veter/target/x86_64-pc-windows-gnu/release/veter.exe).
+1) Make sure you have veter.exe and template.txt in same directory (pre-compiled veter.exe available in veter/target/x86_64-pc-windows-gnu/release/veter.exe).
     
--Modify template.txt to contain the templates seperated by the "==========\r\n" string, and utilizing the {#} tags to indicate where to input strings:
+2) Modify template.txt to contain the templates seperated by the "==========\r\n" string, and utilizing the {#} tags to indicate where to input strings:
 
-example template.txt
+>example template.txt
 
 ```
 template1
@@ -34,12 +34,13 @@ template3
 {3}
 {4}
 ```
--Copy a valid string to your clipboard like the following:
+3) Copy a valid string to your clipboard like the following:
+>example input string
 ```
 John - 50 - Red
 ```
 
--Run the executable:
+4) Run the executable:
 >~#veter [Template_Name]
 
 ```
@@ -49,4 +50,4 @@ I am 50 years old
 Red is my favorite color
 ```
 
--The modified template will be available in your clipboard.
+5) The modified template will be available in your clipboard.
