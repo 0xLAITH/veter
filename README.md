@@ -11,8 +11,8 @@ John - 50 - Red
 
 # Usage
 
--Make sure you have veter.exe and template.txt in same directory.
-
+-Make sure you have veter.exe and template.txt in same directory (pre-compiled veter.exe available in veter/target/x86_64-pc-windows-gnu/release/veter.exe).
+    
 -Modify template.txt to contain the templates seperated by the "==========\r\n" string, and utilizing the {#} tags to indicate where to input strings:
 
 example template.txt
